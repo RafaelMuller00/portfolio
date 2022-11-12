@@ -8,10 +8,12 @@ import { Router } from '@angular/router';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor(router: Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  
+  curriculo(){
+    this.router.navigate(['curriculo'])
+  }
 
 }

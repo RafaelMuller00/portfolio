@@ -1,9 +1,11 @@
+import { CurriculoComponent } from './curriculo/curriculo.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path: '',component: PortfolioComponent},
+  {path: '', component: PortfolioComponent},
+  {path: 'curriculo', component:CurriculoComponent}
 ];
 
 @NgModule({
