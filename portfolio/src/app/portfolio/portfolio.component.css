@@ -7,6 +7,11 @@ main{
     display: flex;
     
 }
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
 .title{
     width: auto;
     height: auto;
