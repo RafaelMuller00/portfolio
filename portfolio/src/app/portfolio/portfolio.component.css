@@ -13,7 +13,7 @@ section{
     display: flex;
 }
 .title{
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
